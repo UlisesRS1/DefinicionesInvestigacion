@@ -14,10 +14,10 @@ import jakarta.inject.Named;
 @Named
 @RequestScoped
 public class Investigacion {
-    String titulo; // Investigacion
-    String descripcion; // Definicion 
-    String referencia; // Supongo que referencia tipo APA y/o IEEE
-    String foto; // URL
+    private String titulo; // Investigacion
+    private String descripcion; // Definicion 
+    private String referencia; // Supongo que referencia tipo APA y/o IEEE
+    private String foto; // URL
 
     public Investigacion() {
         this.titulo = "Investigacion";

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <h:head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <title>Facelet Title</title>
+    </h:head>
+
+    <h:body>
+        <div class="container mt-5">
+            <!-- Titulo -->
+            <div class="row">
+                <h1 class="d-flex justify-content-center fs-1">#{investigacion.titulo}</h1>
+            </div>
+            <!-- Descripcion con imagen -->
+            <div class="row justify-content-center">
+                <div class="clearfix col-lg-8 col-md-12 col-sm-12">
+                    <img src="#{investigacion.foto}" class="float-md-end w-50" alt="Investigacion"/>
+
+                    <p class="text-size">#{investigacion.descripcion}</p>
+                    <a href = "https://dialnet.unirioja.es/servlet/articulo?codigo=6138488" class = "text-size">#{investigacion.referencia}</a>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </h:body>
+</html>

@@ -1,0 +1,31 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 30 sept 2024, 17:34:20
+    Author     : Uli Rodriguez
+*/
+.text-size {
+  font-size: 14px; /* Tamaño de fuente por defecto */
+}
+
+@media (max-width: 576px) {
+  .text-size {
+    font-size: 12px; /* Tamaño de fuente para dispositivos pequeños */
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .text-size {
+    font-size: 16px; /* Tamaño de fuente para dispositivos medianos */
+  }
+}
+
+@media (min-width: 769px) {
+  .text-size {
+    font-size: 20px; /* Tamaño de fuente para dispositivos grandes */
+  }
+}
+
+

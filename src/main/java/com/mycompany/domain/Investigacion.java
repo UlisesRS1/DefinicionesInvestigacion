@@ -28,7 +28,7 @@ public class Investigacion {
                 + "Es social y está determinada por las características del contexto y es orientada por sujetos sociales que en "
                 + "acciones individuales o colectivas intentan dar respuestas a interrogantes planteados en el campo del saber y del hacer.";
         this.referencia = "(N.d.). Unirioja.Es. Retrieved September 30, 2024, from https://dialnet.unirioja.es/servlet/articulo?codigo=6138488";
-        this.foto = "resources/images/investigacion_image.jpg";
+        this.foto = "images/investigacion_image.jpg";
     }
     
     public String getTitulo() {
